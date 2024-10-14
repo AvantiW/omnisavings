@@ -26,32 +26,28 @@ const BankCard = ({
               <h2 className="text-12 font-semibold text-white">●● / ●●</h2>
             </div>
             <p className="text-14 font-semibold tracking-[1.1px] text-white">
-            ●●●● ●●●● ●●●●<span className="text-16">{1234}</span>
+              ●●●● ●●●● ●●●●<span className="text-16">{1234}</span>
             </p>
           </article>
         </div>
 
         <div className="bank-card_icon">
-            <Image
-            src="/icons/Paypass.svg"
-            width={20}
-            height={20}
-            alt="pay"
-            />
-            <Image
+          <Image src="/icons/Paypass.svg" width={20} height={20} alt="pay" />
+          <Image
             src="/icons/mastercard.svg"
             width={45}
             height={45}
             alt="mastercard"
-            />
+            className="ml-5"
+          />
         </div>
 
         <Image
-        src="/icons/lines.svg"
-        width={316}
-        height={190}
-        alt="lines"
-        className="absolute top-0 left-0"
+          src="/icons/lines.svg"
+          width={316}
+          height={190}
+          alt="lines"
+          className="absolute top-0 left-0"
         />
       </Link>
 
